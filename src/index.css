@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner .slick-list{
+    overflow: visible;
+}
+
+.banner .slick-arrow{
+    display: none !important;
+}
+
+.banner .slick-dots li button:before{
+    color: #64748b !important;
+    font-size: 10px !important;
+}
+
+.banner .slick-dots li.slick-active button:before {
+    color: #fff !important;
+}
